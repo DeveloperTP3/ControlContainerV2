@@ -9,4 +9,37 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="cl.teparatres.controlcontainer.Activities.AdminOfflineActivity">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1"
+        android:padding="15dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:hint="@string/ph_busca_contenedor" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_agregar"
+            android:id="@+id/button"/>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView2" >
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="372dp"
+                android:id="@+id/listView" />
+        </ScrollView>
+
+    </LinearLayout>
 </RelativeLayout>

@@ -11,6 +11,7 @@
 
     <string name="ph_busca_contenedor">N° de Contenedor</string>
     <string name="lbl_buscar">Buscar</string>
+    <string name="lbl_agregar">Agregar</string>
 
     <string name="header_principal">Lista de Contenedores</string>
 
