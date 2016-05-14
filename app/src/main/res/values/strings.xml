@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Control de Contenedores</string>
+    <string name="action_logout">Salir</string>
+
+    <string name="titulo_app">Sistema Control de Contenedores</string>
+    <string name="tv_usuario">Usuario:</string>
+    <string name="tv_password">Contraseña:</string>
+    <string name="lbl_ingresar">Ingresar</string>
+    <string name="lbl_modo_offline">Ingresar en Modo Offline</string>
+    <string name="title_activity_contenedor">Contenedores</string>
+
+    <string name="ph_busca_contenedor">N° de Contenedor</string>
+    <string name="lbl_buscar">Buscar</string>
+
+    <string name="header_principal">Lista de Contenedores</string>
+
+    <string name="header_id_contenedor">Número</string>
+    <string name="header_numero_file">File</string>
+    <string name="header_estado">Estado</string>
+    <string name="header_incidente">Incidente</string>
+
+    <string name="opcion_reportar_incidente">Reportar incidente</string>
+    <string name="opcion_cambiar_estado">Cambiar estado</string>
+    <string name="opcion_despachar">Despachar</string>
+    <string name="descripcion_estado">estado de proceso de carga del contenedor</string>
+
+</resources>

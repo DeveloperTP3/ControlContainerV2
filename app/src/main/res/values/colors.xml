@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#666</color>
+
+    <!-- Colores sistema hillebrand-->
+    <color name="amarillo">#f1bf06</color>
+    <color name="azul">#133a74</color>
+    <color name="morado">#53647d</color>
+    <color name="gris">#d4d9dd</color>
+    <color name="gris_claro">#e7eaec</color>
+    <color name="gris_oscuro">#DDDDDD</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="verdeOnline">#04B404</color>
+    <color name="rojoOffline">#B40404</color>
+</resources>

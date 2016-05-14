@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dimesiones Hillebrand -->
+    <dimen name="dim_titulo_app">20sp</dimen>
+    <dimen name="dim_label_olvido">16sp</dimen>
+    <dimen name="text_button_buscar">14sp</dimen>
+</resources>
