@@ -94,7 +94,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private class Conexion extends AsyncTask<String, String, String> {
-
         ProgressDialog dialogo = new ProgressDialog(MainActivity.this);
 
         @Override
@@ -153,7 +152,6 @@ public class MainActivity extends AppCompatActivity {
         protected void onPostExecute(String result) {
             super.onPostExecute(result);
             final String resultado = result;
-
             new android.os.Handler().postDelayed(
                 new Runnable() {
                     public void run() {
