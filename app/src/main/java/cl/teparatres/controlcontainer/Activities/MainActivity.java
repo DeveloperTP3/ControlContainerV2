@@ -26,14 +26,9 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
-import java.nio.charset.Charset;
-import java.util.logging.Handler;
-import java.util.logging.LogRecord;
-
 import cl.teparatres.controlcontainer.Helpers.Base;
 import cl.teparatres.controlcontainer.Helpers.DBHelper;
 import cl.teparatres.controlcontainer.Helpers.DataBaseManager;
-import cl.teparatres.controlcontainer.Models.Supervisor;
 import cl.teparatres.controlcontainer.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -57,9 +52,6 @@ public class MainActivity extends AppCompatActivity {
         txtPass = (EditText)findViewById(R.id.txtPassword);
         btnLogin = (Button) findViewById(R.id.btnLogin);
         btnModoOffline = (TextView) findViewById(R.id.lblModoOffline);
-
-
-
 
         //creamos base de datos inicial
         DBHelper dbHelper = new DBHelper(getBaseContext());
