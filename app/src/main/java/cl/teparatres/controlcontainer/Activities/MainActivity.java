@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
     TextView btnModoOffline;
     DataBaseManager dbm;
     public static final String LINK_LOGIN = "http://bulk.teparatres.cl/services/services.php";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
