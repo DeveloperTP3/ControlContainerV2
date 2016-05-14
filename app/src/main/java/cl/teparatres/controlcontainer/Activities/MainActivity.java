@@ -58,6 +58,9 @@ public class MainActivity extends AppCompatActivity {
         btnLogin = (Button) findViewById(R.id.btnLogin);
         btnModoOffline = (TextView) findViewById(R.id.lblModoOffline);
 
+
+
+
         //creamos base de datos inicial
         DBHelper dbHelper = new DBHelper(getBaseContext());
         SQLiteDatabase db = dbHelper.getWritableDatabase();
